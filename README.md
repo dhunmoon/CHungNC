@@ -2,21 +2,23 @@
 
 <p>Always Iclude the Naming convention at the top of the DOcument to let people know which naming convention you are using
 Any Variable which contains X_Varname means this variable is a blobal variable</p>
-
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
+-------
+![It's Me](img/atul.jpg)
 ###Note: 
 >This is a custom Naming convention which is used in my personal workflow and I incourage people to use a specific naming convention
 >It is not necessory to use my naming convention, create your own naming convention and be consistent using it over your project.
 >Alwasy mention your naming convention and link what naming convention measn what, create a wiki page like this and link it to the top of the project.
 >Sometime you work in a team or an orgenisation which have their own special naming convention and you are forced to use it, remember be uniform on whatever naming convention you use.
 
-###Important
+###Important:
 >This Naming convention has been derived from Hungarian naming convention and mainly targeted to be followed in Javascript Application devlopment and might not be suitable for other oprgraming language.
 
 >This Naming convention do include some naming convention which are not required in Javascript Application development and you will rearly use them.
-[GitHub](http://github.com)
+[Wiki Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation)
+
+_____________
+
+###Gobal Variable Declarations
 
 ####` var _config = ''` 
 Any configuration of Builtin variable which dont change and which user should not change during development.
@@ -26,6 +28,8 @@ Any configuration of Builtin variable which dont change and which user should no
 `g_varName` here `g_` means this is a global variabel ,
 ####` var f_varName = ''`
 Here `f` means this variable contains a flag value.
+-----------------
+###Common Variable Declarations
 ####` var aVarName =[];` 
 `aVarName` here `a` at he start means variable stores an Array
 ####` var nVarName = 3;`
@@ -64,5 +68,8 @@ here `to` means this variable stored a time string.
 variable starts with a capital letter measns it is an class object.
 ####` var oVarName = ''`
 `o` means this is an general object.
+
+###Other Variable Declarations
 ####`var $varName = $(document);`
 Here `$` at he start of the variable means this cariable stores an unique type od deta, at this example it is storing a jQuery object
+
