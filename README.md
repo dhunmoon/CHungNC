@@ -2,7 +2,7 @@
 
 <p>Always Iclude the Naming convention at the top of the DOcument to let people know which naming convention you are using
 Any Variable which contains X_Varname means this variable is a blobal variable</p>
--------
+
 ![It's Me](img/atul.jpg)
 ###Note: 
 >This is a custom Naming convention which is used in my personal workflow and I incourage people to use a specific naming convention
