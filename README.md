@@ -28,6 +28,7 @@ Any configuration of Builtin variable which dont change and which user should no
 `g_varName` here `g_` means this is a global variabel ,
 ####` var f_varName = ''`
 Here `f` means this variable contains a flag value.
+
 -----------------
 ###Common Variable Declarations
 ####` var aVarName =[];` 
@@ -69,6 +70,7 @@ variable starts with a capital letter measns it is an class object.
 ####` var oVarName = ''`
 `o` means this is an general object.
 
+----------------------
 ###Other Variable Declarations
 ####`var $varName = $(document);`
 Here `$` at he start of the variable means this cariable stores an unique type od deta, at this example it is storing a jQuery object
